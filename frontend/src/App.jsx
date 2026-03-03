@@ -25,7 +25,7 @@ import useGetItemsByCity from './hooks/useGetItemsByCity'
 import useGetMyOrders from './hooks/useGetMyOrders'
 import useUpdateLocation from './hooks/useUpdateLocation'
 
-export const serverUrl = "http://localhost:5000"
+export const serverUrl = "https://e-commwecefooddelivery-backend.onrender.com"
 
 // 🔥 SOCKET GLOBAL (Redux ke bahar)
 export const socket = io(serverUrl, { withCredentials: true })
